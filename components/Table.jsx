@@ -19,8 +19,7 @@ export const FlightTable = () => {
 	}, []);
 
 	if (loading) return <p>Loading</p>;
-	// console.log(flightData);
-	// console.log((flightData));
+
 	return (
 		<>
 			{/* {Object.values(flightData).map((flight) => {
